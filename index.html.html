@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Para Angeline 💖</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            max-width: 350px;
+        }
+
+        h1 {
+            color: #e75480;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+            white-space: pre-line;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            background-color: #e75480;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #d9436c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Buenos días, mi amor Angeline ☀️</h1>
+        <p id="mensaje">💖</p>
+        <button onclick="mostrarMensaje()">Siguiente</button>
+    </div>
+
+    <script>
+        function mostrarMensaje() {
+            document.getElementById("mensaje").innerText =
+            "Mucha suerte el día de hoy 🍀\nNo olvides que eres muy importante para mí 💕";
+        }
+    </script>
+
+</body>
+</html>
